@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    padding: 15px 50px;
+}
+.navbar .navbar-brand{
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: orange;
+}
+
+#navbarSupportedContent a{
+    color: white;
+    font-size: 20px;
+    padding: 0px 25px ;
+}
+.img-thumbnail{
+    border-radius: 50%;
+    box-shadow: 15px 0px 10px orangered;
+}
+
+#profile h1{
+ color: blue;
+}
+#profile h2{
+    color: blue;
+    letter-spacing: 5px;
+    font-family: monospace;
+}
+#profile h3{
+    color: orange;
+}
+#profile p{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 35px;
+}
+#profile{
+    min-height: 100vh;
+    padding-top: 110px;
+    
+}
+#education{
+    min-height: 100vh;
+    padding-top: 110px;
+   
+}
+#skills{
+    min-height: 100vh;
+    padding-top: 110px;
+}
+#skills h1{
+    color: orange;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+#project{
+    min-height: 100vh;
+    padding-top: 150px;
+}
+
+#project h3{
+    color: orangered;
+}
+
+#contact{
+    min-height: 100vh;
+    padding-top: 110px;
+}
+
+#contact h1{
+    color: orange;
+
+}
+#contact h2{
+    color: blueviolet;
+}
+
+#contact h3{
+    color: orangered;
+    font-size: 18px;
+    text-align: center;
+}
